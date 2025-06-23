@@ -1,5 +1,11 @@
-from flask import Flask, render_template, request, redirect, url_for
+import os
+from flask import Flask, render_template, request
 import json
+
+app = Flask(__name__)
+
+# 🔐 Secret Key for session security (optional for now)
+app.secret_key = os.environ.get('SECRET_KEY', 'fallback-secret')
 
 app = Flask(__name__)
 
