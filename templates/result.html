@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <h2>Your Score:</h2>
+    <p class="display-4">{{ score }}/{{ total }}</p>
+
+    {% if score < 8 %}
+        <p class="fs-1">😂</p>
+        <p class="lead text-danger">Better luck next time!</p>
+    {% else %}
+        <p class="fs-1">🎉</p>
+        <p class="lead text-success">Great job, quiz master!</p>
+    {% endif %}
+
+    <a href="{{ url_for('index') }}" class="btn btn-secondary mt-3">Try Again</a>
+</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Berlin", "London", "Paris", "Madrid"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Which language is primarily used for web development?",
+    "options": ["Python", "JavaScript", "C++", "Java"],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "What’s 9 + 10?",
+    "options": ["19", "21", "20", "18"],
+    "answer": "19"
+  },
+   {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Trainer Marking Language", "HyperText Markup Language", "HyperText Marketing Language", "HighText Markup Language"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "options": ["Russia", "Brazil", "Qatar", "Germany"],
+    "answer": "Qatar"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    "answer": "William Shakespeare"
+  },
+  {
+    "question": "Which data structure uses the FIFO principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  }
+]
