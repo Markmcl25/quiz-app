@@ -1,3 +1,7 @@
+![Quiz Start Page](images/quiz.jpg)
+![Question Example](images/quiz1.jpg)
+
+
 🧠 Quiz App
 A fast-paced, web-based quiz application built with Python and Flask. Users can test their knowledge across various topics through multiple-choice questions with instant feedback. The app features a clean interface, random question order, and real-time score tracking.
 
